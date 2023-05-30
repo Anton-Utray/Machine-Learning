@@ -10,9 +10,11 @@ Estamos ante un proyecto que consiste en la creación de un modelo predictivo pa
 <summary>Archivos</summary>
 <br>
 Se presentan los siguientes archivos: 
+
  - **train.csv**: Aquí podemos encontrar una muestra de datos con alrededor de 1000 modelos de ordenadores con su precio y respectivas caracteristicas como almacenamiento, RAM, CPU, CGU... Este archivo nos servirá para entrenar los distintos modelos. 
  - **test.csv**: Muestra de datos parecida a la de train, sin embargo esta no trae la variable dependiente, es decir los precios a predecir.
  - **muestra.csv**: eschema para subir predicciones a la competición de Kaggle. 
+
 </details>
 
 ## Analisis inicial
@@ -32,6 +34,7 @@ Aquí buscamos familiarizarnos con los datos. Esto es un paso imprescindible par
       - En el caso de que sean muchos habrá que evaluar como agruparlos. De lo contario podria confundir al modelo. 
  - Correlacion/colinealidad entre columnas
  - Distribución de los datos: outliers y sesgo(skew)
+
 </details>
 
 ## Limpieza y adecuación
@@ -60,7 +63,7 @@ Tras realizar este primero analisis exploratorio de los datos, pasamos a la limp
 - Columna **GPU**:
     - Separamos por marca. 
 
-REalizadas estas adecuaciones, pasamos todas las columnas a tipo float/int para valores numericos y para datos categoricos en string aplicamos un get dummies. 
+Realizadas estas adecuaciones, pasamos todas las columnas a tipo float/int para valores numericos y para datos categoricos en string aplicamos un get dummies. 
 
 ## Entrenamiento de modelos
 
