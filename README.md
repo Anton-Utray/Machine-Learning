@@ -6,24 +6,19 @@ Estamos ante un proyecto que consiste en la creación de un modelo predictivo pa
 
 **Spoiler**: Quedé en cuarta posición de 22 aplicantes. 
 
-<details>
-<summary>Archivos</summary>
-<br>
 Se presentan los siguientes archivos: 
 
  - **train.csv**: Aquí podemos encontrar una muestra de datos con alrededor de 1000 modelos de ordenadores con su precio y respectivas caracteristicas como almacenamiento, RAM, CPU, CGU... Este archivo nos servirá para entrenar los distintos modelos. 
  - **test.csv**: Muestra de datos parecida a la de train, sin embargo esta no trae la variable dependiente, es decir los precios a predecir.
  - **muestra.csv**: eschema para subir predicciones a la competición de Kaggle. 
 
-</details>
-
 ## Analisis inicial
 
 Aquí buscamos familiarizarnos con los datos. Esto es un paso imprescindible para ML, ya que va a ser necesario optimizar los datos para el modelo.
 
-<details>
-<summary>Algunas de las incognitas que buscamos despejar a través de este analisis son:</summary>
-<br>
+
+Algunas de las incognitas que buscamos despejar a través de este analisis son:
+
 
  - Datos nulos y duplicados
     - Habrá que ver si eliminamos las filas con muchos datos nulos o los rellenamos con media, moda o mediana
@@ -35,7 +30,6 @@ Aquí buscamos familiarizarnos con los datos. Esto es un paso imprescindible par
  - Correlacion/colinealidad entre columnas
  - Distribución de los datos: outliers y sesgo(skew)
 
-</details>
 
 ## Limpieza y adecuación
 
